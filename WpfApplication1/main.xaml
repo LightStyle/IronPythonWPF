@@ -1,0 +1,13 @@
+﻿<Window 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       Title="Applicazione" Height="350" Width="350">
+    <Grid>
+        <Button Name="b1" Width="70px" Margin="12,12,246,269">B1</Button>
+        <Button Name="b2" Width="70px" Margin="88,12,170,269">B2</Button>
+        <Button Name="b3" Width="70px" Margin="164,12,94,269">B3</Button>
+        <Button Name="b4" Width="70px" Margin="240,12,18,269">B4</Button>
+        <TextBox Name="Text" Margin="12,59,18,129" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible">Make my pc talk!</TextBox>
+        <Button Name="Speak" Margin="88,216,94,53">Fai parlare il tuo pc!</Button>
+    </Grid>
+</Window>
